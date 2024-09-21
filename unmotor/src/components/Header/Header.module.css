@@ -1,0 +1,73 @@
+.HeaderBox {
+ display: flex;
+ align-items: center;
+ /* background-color: rgba(1, 3, 19, 0.958); */
+ height: 70px;
+ border-bottom: 1px solid rgba(38, 38, 38, 0.93);
+ background-color: #000;
+ 
+
+ /* justify-content: center; */
+
+}
+.HeaderNav {
+ display: flex;
+ align-items: center;
+ width: 100%;
+ height: 60%;
+ justify-content: center;
+ /* padding: 0 170px; */
+}
+
+.HeaderBoxLogo {
+ display: flex;
+ justify-content: space-evenly;
+ /* margin: 0 0 0 20px; */
+ height: 100%;
+ width: 342px;
+ /* justify-content: center; */
+ /* border-radius: 0 30px 30px 0 ; */
+ align-items: center;
+ /* background-color: #db2020; */
+ background: linear-gradient(0deg, #00000073, #1e1e1e);
+ /* border-radius: 0 11px 0 0; */
+
+ /* border-right: solid 1px rgba(255, 255, 255, 0.249); */
+ /* box-shadow: -10px -10px 95px rgb(255, 0, 0); */
+}
+
+.HeaderBoxLogo p {
+ font-size: 22px;
+ font-style: italic;
+ font-weight: 700;
+ color: rgb(132, 132, 132);
+}
+.HeaderNavLink {
+ display: flex;
+ background: linear-gradient(0deg, rgba(255, 255, 255, 0), rgba(46, 45, 45, 0.557));
+ align-items: center;
+ border-radius: 11px;
+ /* border-radius: 0 22px 22px 22px ; */
+
+ /* border-right: solid 2px rgba(255, 255, 255, 0.249); */
+ /* border-bottom: solid 2px rgba(255, 255, 255, 0.249); */
+ height: 100%;
+ justify-content: center;
+ width: 100px;
+ margin: 0 20px;
+}
+
+.HeaderNavLink p {
+ color: rgb(95, 94, 94);
+ transition: all .5s;
+
+}
+
+.HeaderNavLink:hover p {
+   color: rgb(172, 170, 171);
+   transition: all .5s;
+  }
+
+a {
+ text-decoration-line: none;
+}
